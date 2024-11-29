@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body{
+    font-family:sans-serif
+}
+
+header {
+    background-color: rgb(25, 25, 48);
+    text-decoration: none; 
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+    color:white;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 60px;
+}
+
+strong{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.saldoTexto {
+    justify-content: center;
+    margin-left: 200px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(25, 25, 48);
+    color: #ffffff;
+    justify-content: center;
+}
